@@ -1,0 +1,14 @@
+public class Main {
+
+    public static void main(String[] args) {
+        byte myByteValue = 125;
+        short myShortValue = 32767;
+        int myIntegerValue = 5;
+        long result = 10000 + 10 * (myByteValue + myShortValue + myIntegerValue);
+        System.out.println("The answer is:"+result);
+
+        short shortTotal = (short) (1000 + 10 *
+                (myByteValue + myShortValue + myIntegerValue));
+        System.out.println("Result is : "+shortTotal);
+    }
+}
