@@ -1,0 +1,30 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+        boolean isAlien = true;
+        if(isAlien == true) {
+            System.out.println("It is alien");
+            System.out.println("What more to expect in this world!");
+            
+            
+        int topscore = 100;
+        if(topscore== 100) 
+        {
+            System.out.println("You got the highest score!");
+        }
+        int highscore = 90;
+        if(highscore < 100)
+        {
+            System.out.println("You got the top score!");
+        }
+        
+        int secondscore=80;
+        if (highscore> secondscore && highscore< 100)
+        {
+            System.out.println("You got greater than the second top score and lesser than the topscore!");
+        }
+        }
+        
+	}
+}
