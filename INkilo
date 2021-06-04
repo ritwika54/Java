@@ -1,0 +1,10 @@
+public class Main {
+
+    public static void main(String[] args) {
+        double pounds=1550d;
+        double inkilo = pounds * 0.4535d;
+        System.out.println("Converted kilograms" + inkilo +"kg");
+    }
+    
+
+}
