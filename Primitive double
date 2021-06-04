@@ -1,0 +1,10 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+        double pi = 3.1415927d;
+        double n = 3_000_654.4_567_009d;
+        System.out.println(pi);
+        System.out.println(n);
+	}
+}
