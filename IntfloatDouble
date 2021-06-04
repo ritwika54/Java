@@ -1,0 +1,13 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int Myint= 5 / 3;
+        float Myfloat= 5f/3f;
+        double myDouble= 5.00 / 3.00;
+        System.out.println("Myint :" +  Myint);
+        System.out.println("Myfloat :" +  Myfloat);
+        System.out.println("Mydouble :" +  myDouble);
+    }
+    
+
+}
